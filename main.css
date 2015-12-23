@@ -3,9 +3,17 @@ body {margin:0;}
 {
     background-image:url("http://cdn.geekwire.com/wp-content/uploads/2015/03/Earth-From-Space-Space-1080x1920.jpg");
     background-size:100% 100%;
-    padding:350px;
+    padding:150px;
     background-repeat:no-repeat;
     margin:0;
+}
+@media only screen and (min-width: 768px)
+{
+    #background
+    {
+        padding:350px; 
+    }
+    
 }
 
 #header
