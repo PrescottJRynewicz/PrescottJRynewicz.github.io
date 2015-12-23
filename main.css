@@ -62,8 +62,7 @@ h1,h2
     padding: 6px 15px;
     text-decoration: none;
     font-weight: bold;
-    color:rbg(50,50,50);
-}
+    color:rbg(30,30,30);
 @media only screen and (min-width: 768px)
 {
     #nav li a
@@ -85,7 +84,14 @@ h1,h2
 #nav li a:hover
 {
 
-    color:purple;
+  color:white;
+}
+@media only screen and (min-width: 768px)
+{
+    #nav li a:hover
+    {
+          color:purple;
+    }
 }
 #ContactInfo
 {
