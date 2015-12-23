@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="smoothScroll.js"></script>
     <title>Prescott Rynewicz</title>
-    <script type="text/javascript" src="/smoothscroll.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="shortcut icon" type="image/png" href="http://i67.tinypic.com/2mah3d.png">
@@ -18,10 +18,10 @@
     </div>
     <div id="nav">
         <ul style="list-style-type:none">
-            <li><a href="#Backgd">About me</a></li>
-            <li><a href="#Work">Work And Experience</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact Me">Contact Me</a></li>
+            <li><a data-scroll href="#Backgd">About me</a></li>
+            <li><a data-scroll href="#Work">Work And Experience</a></li>
+            <li><a data-scroll href="#Projects">Projects</a></li>
+            <li><a data-scroll href="#Contact Me">Contact Me</a></li>
             
         </ul>
     </div>
@@ -105,6 +105,8 @@
 <div id="footer">
     <p>&#169 Designed and Developed By Prescott Rynewicz</p>
 </div>
-
+<script>
+smoothScroll.init();
+</script>
 </body>
 
