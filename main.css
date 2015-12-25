@@ -80,6 +80,7 @@ h1,h2
     #nav li a
     {
         border-right: 1px solid #ccc;
+        border-left: 1px solid #ccc;
         color: #069;
     }
 }
