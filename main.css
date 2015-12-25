@@ -48,7 +48,6 @@ h1,h2
     width:100%;
     font-family:verdana;
     text-align:center;
-    transition: color 2s;
 }
 @media only screen and (min-width: 768px)
 {
@@ -71,6 +70,7 @@ h1,h2
     text-decoration: none;
     font-weight: bold;
     color:rgb(0,100,200);
+    transition: color 2s;
 
 }
 @media only screen and (min-width: 768px)
