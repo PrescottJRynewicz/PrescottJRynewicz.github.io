@@ -23,6 +23,7 @@ body {margin:0;}
     top:100%;
     left:100%;
     border:25px solid purple;
+    padding:40px;
 }
 
 #header
