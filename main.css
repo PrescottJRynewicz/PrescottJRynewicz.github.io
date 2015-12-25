@@ -22,6 +22,7 @@ body {margin:0;}
     position:fixed;
     top:100%;
     left:100%;
+    border:25px solid purple;
 }
 
 #header
