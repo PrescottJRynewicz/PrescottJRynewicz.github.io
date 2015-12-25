@@ -70,7 +70,7 @@ h1,h2
     text-decoration: none;
     font-weight: bold;
     color:rgb(0,100,200);
-    transition: color 2s;
+    transition: color 2s,font-size 2s;
 
 }
 @media only screen and (min-width: 768px)
@@ -101,6 +101,7 @@ h1,h2
     #nav li a:hover
     {
         color:purple;
+        font-size:15px;
     }
 }
 #ContactInfo
