@@ -194,8 +194,8 @@ iframe
 }
 #Picture
 {
-    text-align:center;
     width:100%;
+    position:center;
 }
 }
 
