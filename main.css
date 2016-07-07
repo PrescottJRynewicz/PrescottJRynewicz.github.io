@@ -11,9 +11,9 @@ body {margin:0;}
 {
     #background
     {
-        padding:350px; 
+        padding:350px;
     }
-    
+
 }
 
 
@@ -28,7 +28,7 @@ body {margin:0;}
     font-family:verdana;
     font-style:italic;
     color:white;
-    
+
 }
 @media only screen and (min-width: 768px)
 {
@@ -60,7 +60,7 @@ h1,h2
 }
 #nav li
 {
-    
+
 }
 @media only screen and (min-width: 768px)
 {#nav li{float:left;width:20%;}}
@@ -86,12 +86,12 @@ h1,h2
 
 @media only screen and (min-width: 768px)
 {
-    
+
     #nav li:first-child a
     {
         border-left: 1px solid #ccc;
     }
-    
+
 }
 #nav li a:hover
 {
@@ -106,12 +106,14 @@ h1,h2
         font-size:20px;
     }
 }
+
+
 #ContactInfo
 {
     width:100%;
     font-family:verdana;
     text-align:center;
-    
+
 }
 
 #ContactInfo li
@@ -129,7 +131,7 @@ h1,h2
 }
 #ContactInfo li a:hover
 {
-    
+
     color:purple;
 }
 
@@ -183,7 +185,7 @@ ul
     line-height:1.5;
     font-size:15px;
     list-style-type:circle;
-    
+
 }
 
 @media only screen and (max-width: 500px)
@@ -194,7 +196,42 @@ iframe
 }
 
 }
+#langnav
+{
+    left:0;
+    width:100%;
+    font-family:verdana;
+    text-align:center;
+    color:#069;
+}
 
+@media only screen and (min-width: 768px)
+{#langnav li{float:left;width:12.5%;}}
 
+#langnav li a
+{
+    display: block;
+    padding: 6px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(0,100,200);
 
+}
+@media only screen and (min-width: 768px)
+{
+    #langnav li a
+    {
+        border-right: 1px solid #ccc;
+        color: #069;
+    }
+}
 
+@media only screen and (min-width: 768px)
+{
+
+    #langnav li:first-child a
+    {
+        border-left: 1px solid #ccc;
+    }
+
+}
